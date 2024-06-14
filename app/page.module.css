@@ -1,0 +1,96 @@
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1rem;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        padding: 25px;
+        flex-wrap: wrap;
+        position: sticky;
+        background-color: #272727;
+    }
+    
+    .headerdiv {
+        width: 100%;
+    }
+    
+    .listelem:hover {
+        color: rgb(58, 137, 255)
+    }
+    
+    .homeparagraph {
+        text-align: center;
+        margin-top: 1rem;
+        margin: 10px;
+    }
+    
+    .divider {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .leftside {
+        font-size: 1rem;
+        width: 65%;
+    }
+    
+    .homeul {
+        margin: 10%;
+        width: 100%;
+    }
+    
+    .homeli {
+        margin: 5px;
+        width: 100%;
+    }
+    
+    .rightside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+    
+    .end {
+        border-top: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+    }
+    
+    .contactdivider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .contactul {
+        width: 100%;
+    }
+    
+    .contactli {
+        margin: 5px;
+        width: 100%;
+    }
+    
+    .contactli:hover {
+        color: rgb(58, 137, 255);
+    }
