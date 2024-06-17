@@ -94,3 +94,24 @@
     .contactli:hover {
         color: rgb(58, 137, 255);
     }
+    
+    .projectcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 300px;
+        margin: 20px;
+        text-align: center;
+        background-color: #272727;
+        border-radius: 10px;
+        padding: 10px;
+        height: 300px;
+    }
